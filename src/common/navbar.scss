@@ -1,0 +1,49 @@
+.navbar {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+
+  //*   LOGO PART
+  .logoContainer {
+    flex: 2;
+    .logo {
+      width: 170px;
+      margin-left: 30px;
+    }
+  }
+  //*    NAVLINKS PART
+  .navLinks {
+    flex: 7;
+    margin: auto;
+    .link {
+      margin: auto 12px;
+      font-size: 18px;
+      color: var(--secondary-color);
+      text-decoration: none;
+    }
+  }
+  //* NAVBAR FEATURES
+  .navbarFeatures {
+    flex: 1;
+    margin: auto;
+    .options {
+      display: none;
+    }
+    .searchIconContainer {
+      margin-right: 18px;
+      .searchIcon {
+        color: var(--secondary-color);
+        font-size: 28px;
+        cursor: pointer;
+      }
+    }
+    .userIconContainer {
+      .userIcon {
+        color: var(--secondary-color);
+        font-size: 28px;
+        cursor: pointer;
+      }
+    }
+  }
+}
