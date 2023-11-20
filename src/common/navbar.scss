@@ -2,7 +2,9 @@
   width: 100vw;
   display: flex;
   align-items: center;
-  background-color: var(--primary-color);
+  position: fixed;
+  top: 0px;
+  background-color: transparent;
 
   //*   LOGO PART
   .logoContainer {
@@ -27,8 +29,27 @@
   .navbarFeatures {
     flex: 1;
     margin: auto;
+    position: relative;
     .options {
       display: none;
+      position: absolute;
+      right: 40px;
+      width: 120px;
+      border: 1px solid gray;
+      background-color: black;
+      span {
+        display: block;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding-left: 8px;
+        cursor: pointer;
+        color: var(--secondary-color);
+        &:hover {
+          background-color: var(--primary-color);
+        }
+      }
     }
     .searchIconContainer {
       margin-right: 18px;
