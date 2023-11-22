@@ -5,13 +5,14 @@
   position: fixed;
   top: 0px;
   background-color: transparent;
+  z-index: 999;
 
   //*   LOGO PART
   .logoContainer {
     flex: 2;
     .logo {
-      width: 170px;
-      margin-left: 30px;
+      width: 150px;
+      margin-left: 50px;
     }
   }
   //*    NAVLINKS PART
